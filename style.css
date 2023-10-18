@@ -1,0 +1,72 @@
+*{
+    background-color: black;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: black;
+}
+.btn{
+    border: 2px solid rgb(193, 163, 98);
+    background-color: black;
+    color: rgb(193, 163, 98);
+    border-radius: 25px;
+    width: 100px;
+    margin-top: 3.8px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.form-control{
+    border: 0.3px solid silver;
+    background-color: black;
+    border-radius: 25px;
+    padding-left: 25px;
+}
+.form-control:hover, .form-control:focus, .form-control:active{
+    box-shadow: 5px 5px 8px goldenrod;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 5px 5px 8px rgb(193, 163, 98);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active{
+    text-shadow: 5px 5px 4px black;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+    text-shadow: 5px 5px 4px black;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.full-footer{
+    background-color: #454545;
+    color: white;
+}
+.carousel-indicators{
+    color: #00ffffff;
+    background-color: aliceblue;
+}
+.btn{
+    font-weight: 700px;
+}
+.banner img{
+    border-radius: 25px;
+}
