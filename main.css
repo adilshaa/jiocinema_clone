@@ -1,0 +1,74 @@
+html::-webkit-scrollbar {
+  width: 20px;
+}
+html::-webkit-scrollbar-track {
+  background-color: rgb(228, 224, 224);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #970266;
+  border-radius: 25px;
+}
+/* minimalist design */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #970266;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #970266;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #970266;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: #970266;
+  border-radius: 10px;
+}
+
+/* striped lines */
+html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #970266,#970266 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #970266;
+  box-shadow: inset 1px 1px 5px #970266;
+}
+
+/* animated  */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(
+    0deg,
+    #970266 0%,
+    #970266 100%
+  );
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100vh black;
+}
